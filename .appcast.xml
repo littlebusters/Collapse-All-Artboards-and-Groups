@@ -2,6 +2,9 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <item>
+      <enclosure url="https://github.com/littlebusters/Collapse-All-Artboards-and-Groups/releases/download/v1.0.1/Collapse-All-Artboards-and-Groups.sketchplugin.zip" sparkle:version="1.0.1"/>
+    </item>
+    <item>
       <enclosure url="https://raw.githubusercontent.com/littlebusters/Collapse-All-Artboards-and-Groups/archive/master.zip" sparkle:version="1.0.0"/>
     </item>
   </channel>
