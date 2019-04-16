@@ -5,17 +5,13 @@ var onRun = function(context) {
 
   for (var i = 0; i < pages.length; i++) {
     doc.setCurrentPage(pages[i])
-    var currentArtboard = doc.findCurrentArtboardGroup()
-    
+
     context.api().selectedDocument.selectedPage.selectedLayers.clear()
 
     var action = doc.actionsController().actionForID("MSCollapseAllGroupsAction")
 
     if(action.validate()) {
-      action.doPerformAction(nil)
-      if(currentArtboard !== null) {
-        currentArtboard.select_byExpandingSelection(true, false)
-      }
+      action.doPerformAction(nil);
     } else {
       log("Failed to perform MSCollapseAllGroupsAction: invalid action ID.")
     }

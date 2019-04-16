@@ -1,6 +1,6 @@
 {
   "name": "Collapse All Artboards And Groups",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Collapse all artboards and groups on Current Document",
   "author": "littlebusters",
   "identifier": "net.creative-tweet.collapse-all",
