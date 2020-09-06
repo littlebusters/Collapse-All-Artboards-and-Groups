@@ -23,5 +23,6 @@
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
   },
-  "author": "littlebusters"
+  "author": "littlebusters",
+  "repository": "https://github.com/littlebusters/Collapse-All-Artboards-and-Groups"
 }
